@@ -18,3 +18,8 @@
    7. Security: ACE probably doesn't get to the host OS or other containers
    8. Simplicity: can download and run with the exact same environment with a single command
    9. Scalability: I can run X instances by adding a single line to a config file w/ swarm, kubes, aws, etc.
+
+* How to follow this tutorial.
+1. Clone the repo (or just view it on GitHub)
+2. Checkout the first commit using `git log` then `git checkout ....` using the commit hash from the first commit
+3. Checkout the following commits to follow the steps.
