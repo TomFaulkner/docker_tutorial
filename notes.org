@@ -1,0 +1,20 @@
+#+title: Notes
+* Steps
+1. Setup a flask app w/ venv
+2. See that it works
+3. Write a dockerfile
+4. Run it, and see that the thing is running but not accessible
+5. docker ps
+6. Add exposed ports and flask config
+7. Compose
+8. Compose env variables
+9. Why docker?
+   1. Same os environment on local and prod
+   2. Runs on anything
+   3. Ephemeral
+   4. No dependency hell
+   5. Repeatable builds
+   6. Separation from the host means OS updates don't break things
+   7. Security: ACE probably doesn't get to the host OS or other containers
+   8. Simplicity: can download and run with the exact same environment with a single command
+   9. Scalability: I can run X instances by adding a single line to a config file w/ swarm, kubes, aws, etc.
