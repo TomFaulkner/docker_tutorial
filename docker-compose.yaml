@@ -6,3 +6,5 @@ services:
       - "5500:5500"
     volumes:
       - .:/src
+    environment:
+      - WORLD=Saturn
